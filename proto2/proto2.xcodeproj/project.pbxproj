@@ -1,0 +1,522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7931A0DD1D2D9D2F00DBB797 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7931A0DC1D2D9D2F00DBB797 /* AppDelegate.swift */; };
+		7931A0DF1D2D9D2F00DBB797 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7931A0DE1D2D9D2F00DBB797 /* ViewController.swift */; };
+		7931A0E21D2D9D2F00DBB797 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7931A0E01D2D9D2F00DBB797 /* Main.storyboard */; };
+		7931A0E51D2D9D2F00DBB797 /* proto2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7931A0E31D2D9D2F00DBB797 /* proto2.xcdatamodeld */; };
+		7931A0E71D2D9D2F00DBB797 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7931A0E61D2D9D2F00DBB797 /* Assets.xcassets */; };
+		7931A0EA1D2D9D2F00DBB797 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7931A0E81D2D9D2F00DBB797 /* LaunchScreen.storyboard */; };
+		7931A0F51D2D9D2F00DBB797 /* proto2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7931A0F41D2D9D2F00DBB797 /* proto2Tests.swift */; };
+		7931A1001D2D9D2F00DBB797 /* proto2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7931A0FF1D2D9D2F00DBB797 /* proto2UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7931A0F11D2D9D2F00DBB797 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7931A0D11D2D9D2F00DBB797 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7931A0D81D2D9D2F00DBB797;
+			remoteInfo = proto2;
+		};
+		7931A0FC1D2D9D2F00DBB797 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7931A0D11D2D9D2F00DBB797 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7931A0D81D2D9D2F00DBB797;
+			remoteInfo = proto2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7931A0D91D2D9D2F00DBB797 /* proto2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = proto2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7931A0DC1D2D9D2F00DBB797 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7931A0DE1D2D9D2F00DBB797 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7931A0E11D2D9D2F00DBB797 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7931A0E41D2D9D2F00DBB797 /* proto2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = proto2.xcdatamodel; sourceTree = "<group>"; };
+		7931A0E61D2D9D2F00DBB797 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7931A0E91D2D9D2F00DBB797 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7931A0EB1D2D9D2F00DBB797 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7931A0F01D2D9D2F00DBB797 /* proto2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = proto2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7931A0F41D2D9D2F00DBB797 /* proto2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = proto2Tests.swift; sourceTree = "<group>"; };
+		7931A0F61D2D9D2F00DBB797 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7931A0FB1D2D9D2F00DBB797 /* proto2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = proto2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7931A0FF1D2D9D2F00DBB797 /* proto2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = proto2UITests.swift; sourceTree = "<group>"; };
+		7931A1011D2D9D2F00DBB797 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7931A0D61D2D9D2F00DBB797 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7931A0ED1D2D9D2F00DBB797 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7931A0F81D2D9D2F00DBB797 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7931A0D01D2D9D2F00DBB797 = {
+			isa = PBXGroup;
+			children = (
+				7931A0DB1D2D9D2F00DBB797 /* proto2 */,
+				7931A0F31D2D9D2F00DBB797 /* proto2Tests */,
+				7931A0FE1D2D9D2F00DBB797 /* proto2UITests */,
+				7931A0DA1D2D9D2F00DBB797 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7931A0DA1D2D9D2F00DBB797 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7931A0D91D2D9D2F00DBB797 /* proto2.app */,
+				7931A0F01D2D9D2F00DBB797 /* proto2Tests.xctest */,
+				7931A0FB1D2D9D2F00DBB797 /* proto2UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7931A0DB1D2D9D2F00DBB797 /* proto2 */ = {
+			isa = PBXGroup;
+			children = (
+				7931A0DC1D2D9D2F00DBB797 /* AppDelegate.swift */,
+				7931A0DE1D2D9D2F00DBB797 /* ViewController.swift */,
+				7931A0E01D2D9D2F00DBB797 /* Main.storyboard */,
+				7931A0E61D2D9D2F00DBB797 /* Assets.xcassets */,
+				7931A0E81D2D9D2F00DBB797 /* LaunchScreen.storyboard */,
+				7931A0EB1D2D9D2F00DBB797 /* Info.plist */,
+				7931A0E31D2D9D2F00DBB797 /* proto2.xcdatamodeld */,
+			);
+			path = proto2;
+			sourceTree = "<group>";
+		};
+		7931A0F31D2D9D2F00DBB797 /* proto2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				7931A0F41D2D9D2F00DBB797 /* proto2Tests.swift */,
+				7931A0F61D2D9D2F00DBB797 /* Info.plist */,
+			);
+			path = proto2Tests;
+			sourceTree = "<group>";
+		};
+		7931A0FE1D2D9D2F00DBB797 /* proto2UITests */ = {
+			isa = PBXGroup;
+			children = (
+				7931A0FF1D2D9D2F00DBB797 /* proto2UITests.swift */,
+				7931A1011D2D9D2F00DBB797 /* Info.plist */,
+			);
+			path = proto2UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7931A0D81D2D9D2F00DBB797 /* proto2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7931A1041D2D9D2F00DBB797 /* Build configuration list for PBXNativeTarget "proto2" */;
+			buildPhases = (
+				7931A0D51D2D9D2F00DBB797 /* Sources */,
+				7931A0D61D2D9D2F00DBB797 /* Frameworks */,
+				7931A0D71D2D9D2F00DBB797 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = proto2;
+			productName = proto2;
+			productReference = 7931A0D91D2D9D2F00DBB797 /* proto2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7931A0EF1D2D9D2F00DBB797 /* proto2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7931A1071D2D9D2F00DBB797 /* Build configuration list for PBXNativeTarget "proto2Tests" */;
+			buildPhases = (
+				7931A0EC1D2D9D2F00DBB797 /* Sources */,
+				7931A0ED1D2D9D2F00DBB797 /* Frameworks */,
+				7931A0EE1D2D9D2F00DBB797 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7931A0F21D2D9D2F00DBB797 /* PBXTargetDependency */,
+			);
+			name = proto2Tests;
+			productName = proto2Tests;
+			productReference = 7931A0F01D2D9D2F00DBB797 /* proto2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7931A0FA1D2D9D2F00DBB797 /* proto2UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7931A10A1D2D9D2F00DBB797 /* Build configuration list for PBXNativeTarget "proto2UITests" */;
+			buildPhases = (
+				7931A0F71D2D9D2F00DBB797 /* Sources */,
+				7931A0F81D2D9D2F00DBB797 /* Frameworks */,
+				7931A0F91D2D9D2F00DBB797 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7931A0FD1D2D9D2F00DBB797 /* PBXTargetDependency */,
+			);
+			name = proto2UITests;
+			productName = proto2UITests;
+			productReference = 7931A0FB1D2D9D2F00DBB797 /* proto2UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7931A0D11D2D9D2F00DBB797 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = AutoLoop;
+				TargetAttributes = {
+					7931A0D81D2D9D2F00DBB797 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					7931A0EF1D2D9D2F00DBB797 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 7931A0D81D2D9D2F00DBB797;
+					};
+					7931A0FA1D2D9D2F00DBB797 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 7931A0D81D2D9D2F00DBB797;
+					};
+				};
+			};
+			buildConfigurationList = 7931A0D41D2D9D2F00DBB797 /* Build configuration list for PBXProject "proto2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7931A0D01D2D9D2F00DBB797;
+			productRefGroup = 7931A0DA1D2D9D2F00DBB797 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7931A0D81D2D9D2F00DBB797 /* proto2 */,
+				7931A0EF1D2D9D2F00DBB797 /* proto2Tests */,
+				7931A0FA1D2D9D2F00DBB797 /* proto2UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7931A0D71D2D9D2F00DBB797 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7931A0EA1D2D9D2F00DBB797 /* LaunchScreen.storyboard in Resources */,
+				7931A0E71D2D9D2F00DBB797 /* Assets.xcassets in Resources */,
+				7931A0E21D2D9D2F00DBB797 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7931A0EE1D2D9D2F00DBB797 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7931A0F91D2D9D2F00DBB797 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7931A0D51D2D9D2F00DBB797 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7931A0E51D2D9D2F00DBB797 /* proto2.xcdatamodeld in Sources */,
+				7931A0DF1D2D9D2F00DBB797 /* ViewController.swift in Sources */,
+				7931A0DD1D2D9D2F00DBB797 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7931A0EC1D2D9D2F00DBB797 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7931A0F51D2D9D2F00DBB797 /* proto2Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7931A0F71D2D9D2F00DBB797 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7931A1001D2D9D2F00DBB797 /* proto2UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7931A0F21D2D9D2F00DBB797 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7931A0D81D2D9D2F00DBB797 /* proto2 */;
+			targetProxy = 7931A0F11D2D9D2F00DBB797 /* PBXContainerItemProxy */;
+		};
+		7931A0FD1D2D9D2F00DBB797 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7931A0D81D2D9D2F00DBB797 /* proto2 */;
+			targetProxy = 7931A0FC1D2D9D2F00DBB797 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7931A0E01D2D9D2F00DBB797 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7931A0E11D2D9D2F00DBB797 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7931A0E81D2D9D2F00DBB797 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7931A0E91D2D9D2F00DBB797 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7931A1021D2D9D2F00DBB797 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7931A1031D2D9D2F00DBB797 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7931A1051D2D9D2F00DBB797 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = proto2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.autoloop.proto2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7931A1061D2D9D2F00DBB797 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = proto2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.autoloop.proto2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		7931A1081D2D9D2F00DBB797 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = proto2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.autoloop.proto2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/proto2.app/proto2";
+			};
+			name = Debug;
+		};
+		7931A1091D2D9D2F00DBB797 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = proto2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.autoloop.proto2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/proto2.app/proto2";
+			};
+			name = Release;
+		};
+		7931A10B1D2D9D2F00DBB797 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = proto2UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.autoloop.proto2UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = proto2;
+			};
+			name = Debug;
+		};
+		7931A10C1D2D9D2F00DBB797 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = proto2UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.autoloop.proto2UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = proto2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7931A0D41D2D9D2F00DBB797 /* Build configuration list for PBXProject "proto2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7931A1021D2D9D2F00DBB797 /* Debug */,
+				7931A1031D2D9D2F00DBB797 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7931A1041D2D9D2F00DBB797 /* Build configuration list for PBXNativeTarget "proto2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7931A1051D2D9D2F00DBB797 /* Debug */,
+				7931A1061D2D9D2F00DBB797 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7931A1071D2D9D2F00DBB797 /* Build configuration list for PBXNativeTarget "proto2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7931A1081D2D9D2F00DBB797 /* Debug */,
+				7931A1091D2D9D2F00DBB797 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7931A10A1D2D9D2F00DBB797 /* Build configuration list for PBXNativeTarget "proto2UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7931A10B1D2D9D2F00DBB797 /* Debug */,
+				7931A10C1D2D9D2F00DBB797 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		7931A0E31D2D9D2F00DBB797 /* proto2.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				7931A0E41D2D9D2F00DBB797 /* proto2.xcdatamodel */,
+			);
+			currentVersion = 7931A0E41D2D9D2F00DBB797 /* proto2.xcdatamodel */;
+			path = proto2.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 7931A0D11D2D9D2F00DBB797 /* Project object */;
+}
