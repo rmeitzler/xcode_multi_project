@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "container:LoopCommonDemo.playground">
+   </FileRef>
+   <FileRef
+      location = "group:CommonProject1/CommonProject1.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:CommonProj2/CommonProj2.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "container:LoopCommonDemo.xcodeproj">
+   </FileRef>
+</Workspace>
