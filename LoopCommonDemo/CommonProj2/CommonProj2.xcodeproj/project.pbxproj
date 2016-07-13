@@ -16,6 +16,11 @@
 		7908E3221D343A84003987BF /* CommonProj2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7908E3211D343A84003987BF /* CommonProj2Tests.swift */; };
 		7908E32D1D343A84003987BF /* CommonProj2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7908E32C1D343A84003987BF /* CommonProj2UITests.swift */; };
 		7908E3391D343C1F003987BF /* LoopCommon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7908E3381D343C1F003987BF /* LoopCommon.framework */; };
+		7908E3B91D354D25003987BF /* LoopCommonUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7908E3B81D354D25003987BF /* LoopCommonUI.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+		795513811D3588FC00EA1E3B /* LoopCommon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 795513801D3588FC00EA1E3B /* LoopCommon.framework */; };
+		795513821D3588FC00EA1E3B /* LoopCommon.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 795513801D3588FC00EA1E3B /* LoopCommon.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		795513841D3588FC00EA1E3B /* LoopCommonUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 795513831D3588FC00EA1E3B /* LoopCommonUI.framework */; };
+		795513851D3588FC00EA1E3B /* LoopCommonUI.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 795513831D3588FC00EA1E3B /* LoopCommonUI.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +40,21 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		795513861D3588FD00EA1E3B /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				795513821D3588FC00EA1E3B /* LoopCommon.framework in Embed Frameworks */,
+				795513851D3588FC00EA1E3B /* LoopCommonUI.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		7908E3061D343A84003987BF /* CommonProj2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CommonProj2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7908E3091D343A84003987BF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -51,6 +71,9 @@
 		7908E32C1D343A84003987BF /* CommonProj2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonProj2UITests.swift; sourceTree = "<group>"; };
 		7908E32E1D343A84003987BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7908E3381D343C1F003987BF /* LoopCommon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LoopCommon.framework; path = "../../../Library/Developer/Xcode/DerivedData/LoopCommonDemo-cnesigmupvyhhddfhbikfiumxmnx/Build/Products/Debug-iphonesimulator/LoopCommon.framework"; sourceTree = "<group>"; };
+		7908E3B81D354D25003987BF /* LoopCommonUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LoopCommonUI.framework; path = "../build/Debug-iphoneos/LoopCommonUI.framework"; sourceTree = "<group>"; };
+		795513801D3588FC00EA1E3B /* LoopCommon.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; name = LoopCommon.framework; path = "/Users/richard/Library/Developer/Xcode/DerivedData/LoopCommonDemo-balomsozukiqppehxhelmcssmlyt/Build/Products/Debug-iphoneos/LoopCommon.framework"; sourceTree = "<absolute>"; };
+		795513831D3588FC00EA1E3B /* LoopCommonUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; name = LoopCommonUI.framework; path = "/Users/richard/Library/Developer/Xcode/DerivedData/LoopCommonDemo-balomsozukiqppehxhelmcssmlyt/Build/Products/Debug-iphoneos/LoopCommonUI.framework"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +81,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				795513811D3588FC00EA1E3B /* LoopCommon.framework in Frameworks */,
+				7908E3B91D354D25003987BF /* LoopCommonUI.framework in Frameworks */,
 				7908E3391D343C1F003987BF /* LoopCommon.framework in Frameworks */,
+				795513841D3588FC00EA1E3B /* LoopCommonUI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,6 +108,9 @@
 		7908E2FB1D343A41003987BF = {
 			isa = PBXGroup;
 			children = (
+				795513831D3588FC00EA1E3B /* LoopCommonUI.framework */,
+				795513801D3588FC00EA1E3B /* LoopCommon.framework */,
+				7908E3B81D354D25003987BF /* LoopCommonUI.framework */,
 				7908E3381D343C1F003987BF /* LoopCommon.framework */,
 				7908E3081D343A84003987BF /* CommonProj2 */,
 				7908E3201D343A84003987BF /* CommonProj2Tests */,
@@ -142,6 +171,7 @@
 				7908E3021D343A84003987BF /* Sources */,
 				7908E3031D343A84003987BF /* Frameworks */,
 				7908E3041D343A84003987BF /* Resources */,
+				795513861D3588FD00EA1E3B /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -629,6 +659,7 @@
 				7908E3311D343A84003987BF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7908E3321D343A84003987BF /* Build configuration list for PBXNativeTarget "CommonProj2Tests" */ = {
 			isa = XCConfigurationList;
@@ -637,6 +668,7 @@
 				7908E3341D343A84003987BF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7908E3351D343A84003987BF /* Build configuration list for PBXNativeTarget "CommonProj2UITests" */ = {
 			isa = XCConfigurationList;
@@ -645,6 +677,7 @@
 				7908E3371D343A84003987BF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
