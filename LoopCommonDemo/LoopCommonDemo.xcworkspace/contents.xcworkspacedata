@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:LegacyProject/LegacyProject.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "container:LoopCommonDemo.playground">
    </FileRef>
    <FileRef
@@ -12,5 +15,11 @@
    </FileRef>
    <FileRef
       location = "container:LoopCommonDemo.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:LoopCommonDemo.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Pods/Pods.xcodeproj">
    </FileRef>
 </Workspace>

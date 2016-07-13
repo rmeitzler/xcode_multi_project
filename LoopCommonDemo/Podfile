@@ -1,0 +1,36 @@
+workspace 'LoopCommonDemo'
+# Uncomment this line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'LoopCommon' do
+  # Comment this line if you're not using Swift and don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for LoopCommon
+
+  target 'LoopCommonTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end
+
+target 'CommonProj2' do
+  use_frameworks!
+  project 'CommonProj2/CommonProj2'
+  platform :ios, '9.3'
+  pod 'SwiftCarousel', '~> 0.7'
+end
+
+target 'CommonProject1' do
+  use_frameworks!
+  project 'CommonProject1/CommonProject1'
+  platform :ios, '9.3'
+  pod 'SwiftCarousel', '~> 0.6'
+end
+
+target 'LegacyProject' do
+  project 'LegacyProject/LegacyProject'
+  platform :ios, '7.0'
+  pod 'AFNetworking'
+end
